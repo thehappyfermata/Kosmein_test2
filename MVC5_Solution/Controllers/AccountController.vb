@@ -15,7 +15,7 @@ Public Class AccountController
     Public Sub New()
     End Sub
 
-    Public Sub New(appUserMan As ApplicationUserManager, signInMan As ApplicationSignInManager)
+    Public Sub New(appUserMan As ApplicationUserManager, signInMan As ApplicationSignInManager) 'test
         UserManager = appUserMan
         SignInManager = signInMan
     End Sub
